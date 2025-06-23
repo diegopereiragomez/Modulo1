@@ -126,7 +126,7 @@ a {
 
 .formulario__boton:hover {
     border-radius: 5px;
-    color: var--_secundary-color);
+    color: var--secundary-color);
     background-color: var(--primary-color);
     transform: .3s;
 }
