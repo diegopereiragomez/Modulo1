@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carpinteria</title>
+    <link rel="icon" href="./img/favicon.svg" />
+    <link rel="stylesheet" href="./estilos/normalize.css" />
+    <link rel="stylesheet" href="./estilos/estilo.css" />
+</head>
+
+<body>
+    <header>
+        <section class="cabezal">
+            <h1>Maderas y carpinteros</h1>
+            <img src="./img/emblema.svg" alt="logotipo">
+        </section>
+
+        <nav class="cabezal">
+
+            <ul class="cabezal--navegacion">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        </section>
+    </header>
+    <main>
+        <h2>¿Tienes alguna duda?<br>Entonces contacta con nosotros</h2>
+        <form action="post" target="#">
+            <fieldset class="formulario">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="escribe tu nombre" required>
+                <label for="email">Correo electronico</label>
+                <input type="text" id="email" placeholder="escribe tu correo electronico" required>
+                <label for="duda">Comentario</label>
+
+                <textarea name="duda" id="duda" cols="30" rows="10" placeholder="Escribe aqui tus dudas"
+                    required></textarea>
+                <input type="submit" class="formulario--boton" onclick="verificar()">
+                <p>Te contestaremos con la mayor brevedad</p>
+                <div class="error" id="errorMessages"></div>
+            </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        <small>Todos los derechos reservados <a href="#">Diego<sup>&copy;</sup>Quest</a> 🐺</small>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
