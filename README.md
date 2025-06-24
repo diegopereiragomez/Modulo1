@@ -2,6 +2,8 @@
 La pagina se conforma con un bloque de 3 paginas una de inicio, otra de servicios disponibles y otra de contacto
 tiene que incluir un favicon
 Debe de habr un encabezado comun para las tres paginas y deben de compartir la misma hoja de estilos
+Hubo un problema y solo han subido los archivos, no subieron las carpetas
+la estrucutra entera esta en el archivo rar
 
 ## HTML
 Se comienza con la pagina de inicio estableciendo el encabezado, se compone de un titulo acompañado del logotipo y dispone de un menu de navegacion
